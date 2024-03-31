@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import  { useEffect, useState, useRef } from "react";
 import arrow from "../assets/right-arrow-black.svg";
 import axios from "axios";
 
@@ -86,7 +86,7 @@ const NewEvent = () => {
   return (
     <div>
       <div className="flex items-center font-semibold gap-2">
-        <p className="ml-5">Upcoming events</p>
+        <p className="ml-12">Upcoming events</p>
         <img src={arrow} alt="right-arrow" className="w-4 h-4" />
       </div>
       <div className="flex flex-wrap gap-12 mt-6 w-11/12 mx-20 max-[480px]:mx-auto">
