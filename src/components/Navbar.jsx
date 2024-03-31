@@ -1,7 +1,7 @@
-// import menu from '../assets/menu.png'
+
 import search from '../assets/search.svg'
 import heart  from '../assets/heart.svg'
-// import location  from '../assets/location.png'
+
 import user  from '../assets/user.svg'
 
 const Navbar = () => {
