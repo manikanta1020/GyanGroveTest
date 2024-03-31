@@ -69,7 +69,7 @@ const Shows = () => {
     return (distanceInMeters / 1000).toFixed(2);
   };
 
-//function to reduce event name to the second space
+
   const reduceEventName = (eventName) => {
     const parts = eventName.split(' ');
     if (parts.length >= 3) {
